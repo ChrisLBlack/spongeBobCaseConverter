@@ -1,0 +1,15 @@
+
+<mat-form-field>
+    <mat-label></mat-label>
+    <input matInput
+           placeholder="feed machine string here"
+           [(ngModel)]="textInput">
+</mat-form-field>
+<button mat-raised-button
+        color="primary"
+        (click)="makeSpongBobCase(textInput)">dO iT</button>
+
+ <!-- Terminal -->
+ <div class="terminal">
+    <pre >{{textOutput}}</pre>
+</div>
